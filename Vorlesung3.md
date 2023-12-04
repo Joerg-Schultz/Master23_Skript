@@ -25,3 +25,17 @@
 create repository
 
 Code auf GitHub gepushed
+
+
+#### Issues
+
+- close via keyword
+    - Close
+    - Closes
+    - Closed
+    - Fix
+    - Fixes
+    - Fixed
+    - Resolve
+    - Resolves
+    - Resolved
