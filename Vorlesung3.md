@@ -39,3 +39,11 @@ Code auf GitHub gepushed
     - Resolve
     - Resolves
     - Resolved
+
+#### Pages
+
+Setting -> Pages
+
+Deploy from branch
+
+Select branch, meistens master
