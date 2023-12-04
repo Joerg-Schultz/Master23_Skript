@@ -8,4 +8,4 @@
 
 ## Git GitHub
 
-[Vorlsung](Vorlesung3.md)
+[Vorlesung](Vorlesung3.md)

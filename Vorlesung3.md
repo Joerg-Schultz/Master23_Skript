@@ -47,3 +47,10 @@ Setting -> Pages
 Deploy from branch
 
 Select branch, meistens master
+
+#### Releases
+
+Get a DOI for a release:
+
+- https://www.youtube.com/watch?v=A9FGAU9S9Ow&ab_channel=JaanTollanderdeBalsch
+- https://www.youtube.com/watch?v=gp3D4mf6MHQ&ab_channel=SerenaBonaretti
