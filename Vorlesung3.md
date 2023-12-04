@@ -54,3 +54,45 @@ Get a DOI for a release:
 
 - https://www.youtube.com/watch?v=A9FGAU9S9Ow&ab_channel=JaanTollanderdeBalsch
 - https://www.youtube.com/watch?v=gp3D4mf6MHQ&ab_channel=SerenaBonaretti
+
+
+#### Actions
+Convert markdown files in directory `reports` to pdf
+```yaml
+name: Markdown Reports to pdf
+
+on:
+  push:
+   paths:
+      - 'reports/**.md'
+   branches: 
+    master
+   
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        
+      - name: Install Pandoc and LaTeX
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive
+        
+      - name: Convert Markdown to PDF
+        run: |
+          cd ./reports
+          find . -name '*.md' -type f -exec sh -c 'pandoc "$0" -o "${0%.md}.pdf"' {} \;
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Converted Markdown files to PDF
+          commit_user_name: GitHub Actions
+          commit_user_email: actions@github.com
+          branch: master
+```
