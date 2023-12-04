@@ -11,3 +11,9 @@ dict_with_key_value = {
 ```
 
 ## Funktionen
+
+```python
+def funktionsname(parameter):
+    print(parameter)
+    return "Hallo"
+```
