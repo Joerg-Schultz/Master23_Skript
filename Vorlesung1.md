@@ -20,3 +20,8 @@ text = "langer String"
 text2 = text + "Hallo"
 ```
 - Boolean
+```python
+wahr_falsch = True
+wahr_falsch = False
+```
+Nützlich für if und while

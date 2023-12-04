@@ -29,7 +29,8 @@
 7. Checkout master
 8. Merge branch Vorlesung 2 in master
 
-:-)
+### Github
 
+create repository
 
-
+Code auf GitHub gepushed
