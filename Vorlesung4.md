@@ -1,9 +1,16 @@
 # Data Science
 ## Cookiecutter
 
+[for Data Science](https://drivendata.github.io/cookiecutter-data-science/)
+
 `pip install cookiecutter`
-`C:\Users\Joerg\AppData\Roaming\Python\Python38\Scripts\cookiecutter https://github.
-com/drivendata/cookiecutter-data-science`
+
+Im Verzeichnis `C:\Users\BenutzerName\AppData` Ansicht -> Optionen -> OrdnerOptionen ändern -> Ansicht -> Versteckte 
+Ordner und Dateien -> Ausgeblendete Dateien anzeigen.
+
+auf Kommandozeile gehe in das Verzeichnis, in dem das Projekt liegen soll.
+
+`C:\Users\Joerg\AppData\Roaming\Python\Python38\Scripts\cookiecutter https://github.com/drivendata/cookiecutter-data-science`
 
 ## Intellij
 ### Set Python interpreter
@@ -30,3 +37,7 @@ needed.
 ### csv reader
 
 ### pandas
+
+## Data
+
+Pose Prediction by [DeepLabCut](https://www.mackenziemathislab.org/deeplabcut)
